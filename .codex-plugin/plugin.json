@@ -1,0 +1,37 @@
+{
+  "name": "superpowers",
+  "version": "0.1.0",
+  "description": "Agentic shipping workflows for Codex: multi-agent orchestration, UI/game QA, docs hygiene, image assets, and deployment verification.",
+  "author": {
+    "name": "TaeHuiKKIM",
+    "url": "https://github.com/TaeHuiKKIM"
+  },
+  "homepage": "https://github.com/TaeHuiKKIM/superpowers",
+  "repository": "https://github.com/TaeHuiKKIM/superpowers",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "agents",
+    "qa",
+    "deployment"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Superpowers",
+    "shortDescription": "Ship polished work with agents, QA, docs, and deploy checks.",
+    "longDescription": "Superpowers packages a reusable Codex workflow for large autonomous product updates: read the repo first, split work across agents, create dependency maps, generate visual assets when UI feels weak, add regression tests, update docs and dated logs, and verify deployment before calling work done.",
+    "developerName": "TaeHuiKKIM",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $agentic-ship to ship this update end to end.",
+      "Use $agentic-ship to improve this UI with agents and QA.",
+      "Use $agentic-ship to update docs, tests, and deployment."
+    ],
+    "brandColor": "#3182F6"
+  }
+}

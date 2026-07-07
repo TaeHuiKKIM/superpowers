@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agentic Ship"
+  short_description: "Ship polished work with agents, QA, docs"
+  default_prompt: "Use $agentic-ship to plan, implement, cross-validate, document, and ship this update."
