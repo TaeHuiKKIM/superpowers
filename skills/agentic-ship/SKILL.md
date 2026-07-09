@@ -1,6 +1,6 @@
 ---
 name: agentic-ship
-description: End-to-end agentic development workflow for high-polish product updates. Use when the user asks Codex to work autonomously, use other agents/models, deeply study docs/code, improve UI/game feel, create/update docs, keep dated update logs, cross-validate with tests/screenshots, update README/store/social/deployment assets, push/deploy, or ship production-ready changes with careful regression coverage.
+description: End-to-end agentic development workflow for high-polish product updates and Codex agent setup. Use when the user asks Codex to work autonomously, use other agents/models, apply superpowers, port Claude Code-style agent workflows, create AGENTS.md/.codex/.agents structures, deeply study docs/code, improve UI/game feel, create/update docs, keep dated update logs, cross-validate with tests/screenshots, update README/store/social/deployment assets, push/deploy, or ship production-ready changes with careful regression coverage.
 ---
 
 # Agentic Ship
@@ -25,6 +25,7 @@ Use this skill to turn a broad product request into a shipped, verified update i
 - For UI, frontend, game-feel, sprites, mockups, generated images, tutorial, or visual QA, read `references/ui-game-qa.md`.
 - For README, docs, dated logs, social preview, store/Toss/Play/Vercel, git push, or deployment, read `references/docs-release.md`.
 - For explicit "use agents/models/superpowers" requests, read `references/superpowers.md`.
+- For Claude Code-style setup, Codex repo conventions, `AGENTS.md`, `.agents/skills`, `.codex/config.toml`, hooks, rules, MCP, custom agents, or secret-safe agent scaffolding, read `references/codex-setup.md`.
 
 ## Delegation Rules
 

@@ -6,6 +6,7 @@ It includes the `agentic-ship` skill, which turns broad requests like "use agent
 
 - study docs and code before editing
 - split work across explorers, implementers, fast workers, and verifiers
+- apply Codex-native agent structure when a repo needs reusable instructions, skills, hooks, rules, or MCP
 - map runtime, assets, tests, docs, metadata, screenshots, and deployment dependencies
 - use generated raster assets when CSS/SVG placeholders are not enough
 - add regression tests for bugs that escaped review
@@ -34,6 +35,12 @@ Invoke:
 
 ```text
 Use $agentic-ship to plan, implement, cross-validate, document, and ship this update.
+```
+
+To apply the reusable Codex agent setup to a repo:
+
+```text
+Use $agentic-ship to apply the Codex agent structure to this repo: AGENTS.md, .agents/skills, .codex/config, hooks, rules, docs, and README.
 ```
 
 ## Contents

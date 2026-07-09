@@ -1,7 +1,7 @@
 {
   "name": "superpowers",
-  "version": "0.1.0",
-  "description": "Agentic shipping workflows for Codex: multi-agent orchestration, UI/game QA, docs hygiene, image assets, and deployment verification.",
+  "version": "0.1.1",
+  "description": "Agentic shipping workflows for Codex: multi-agent orchestration, Codex repo setup, UI/game QA, docs hygiene, image assets, and deployment verification.",
   "author": {
     "name": "TaeHuiKKIM",
     "url": "https://github.com/TaeHuiKKIM"
@@ -20,7 +20,7 @@
   "interface": {
     "displayName": "Superpowers",
     "shortDescription": "Ship polished work with agents, QA, docs, and deploy checks.",
-    "longDescription": "Superpowers packages a reusable Codex workflow for large autonomous product updates: read the repo first, split work across agents, create dependency maps, generate visual assets when UI feels weak, add regression tests, update docs and dated logs, and verify deployment before calling work done.",
+    "longDescription": "Superpowers packages a reusable Codex workflow for large autonomous product updates and repo agent setup: read the repo first, split work across agents, create dependency maps, translate Claude Code-style patterns into Codex surfaces, generate visual assets when UI feels weak, add regression tests, update docs and dated logs, and verify deployment before calling work done.",
     "developerName": "TaeHuiKKIM",
     "category": "Productivity",
     "capabilities": [
@@ -30,7 +30,8 @@
     "defaultPrompt": [
       "Use $agentic-ship to ship this update end to end.",
       "Use $agentic-ship to improve this UI with agents and QA.",
-      "Use $agentic-ship to update docs, tests, and deployment."
+      "Use $agentic-ship to update docs, tests, and deployment.",
+      "Use $agentic-ship to apply a Codex agent structure to this repo."
     ],
     "brandColor": "#3182F6"
   }
