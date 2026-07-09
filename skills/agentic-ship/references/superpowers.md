@@ -83,3 +83,4 @@ The main agent must synthesize these returns into one final user-facing summary.
 - Keep a dated update log when UI/game feel changes are meaningful.
 - Use image generation for weak visual fantasy, then test the asset in the running app.
 - Production-test the exact reported bug after deploy.
+- When a user wants the same agent structure reused in future repos, apply the Codex setup map in `codex-setup.md`: repo-local `AGENTS.md`, focused `.agents/skills`, project `.codex/config.toml`, optional hooks/rules, docs, and README sync.
